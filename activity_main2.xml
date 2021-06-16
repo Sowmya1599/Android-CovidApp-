@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tv11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="COVID19 - CORONA VIRUS"
+        android:textColor="#4CAF50"
+        android:textSize="24dp"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:screenReaderFocusable="true"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:id="@+id/tv12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="Better to wear a mask than a ventilator;Better to stay at home than in an ICU"
+        android:textColor="#E91E63"
+        android:textSize="22dp" />
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/iv11"
+        android:layout_width="280dp"
+        android:layout_height="250dp"
+        android:src="@drawable/img"/>
+
+    <TextView
+        android:id="@+id/tv13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="casual"
+        android:text="                   Government of India is taking all necessary steps to ensure that we are prepared well to face the challenge and threat posed by the growing pandemic of COVID-19 the Corona Virus"
+        android:textColor="#3F51B5"
+        android:textSize="16dp"
+        android:textStyle="bold|italic" />
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/admin"
+        android:layout_marginTop="10dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right"
+        android:background="@drawable/ic_baseline_account_circle_24"/>
+    <ImageView
+        android:layout_marginLeft="200dp"
+        android:id="@+id/im12"
+        android:layout_marginTop="10dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right"
+        android:background="@drawable/ic_baseline_next_plan_24"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:text="Admin"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/black"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:text="NEXT"
+        android:textSize="16dp"/>
+    </LinearLayout>
+</LinearLayout>
